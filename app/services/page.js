@@ -1,4 +1,6 @@
 import styles from '../page.module.css'
+import HeaderComponent from "../components/common/Header/header";
+import FooterComponent from "../components/common/Footer/footer";
 
 export default function Home() {
   return (
