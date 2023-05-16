@@ -5,11 +5,8 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.js</code>
-        </p>
         <div>
+          <h2>We help you solve your technology challenges.</h2>
           <p>ADN uy is a boutique technology consultancy dedicated to help small and mid-size organizations to make the most out of technology.
           </p>
         </div>
