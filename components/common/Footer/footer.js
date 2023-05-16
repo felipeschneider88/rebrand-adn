@@ -3,9 +3,8 @@ function FooterComponent() {
 	return (        
 		<div className={styles.grid}>
         <a
-          href="https://beta.nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="/about"
           className={styles.card}
-          target="_blank"
           rel="noopener noreferrer"
         >
           <h2>
@@ -15,7 +14,7 @@ function FooterComponent() {
         </a>
 
         <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="/clients"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
@@ -27,7 +26,7 @@ function FooterComponent() {
         </a>
 
         <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="/services"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"

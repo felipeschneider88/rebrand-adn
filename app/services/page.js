@@ -5,7 +5,12 @@ export default function Home() {
     <main className={styles.main}>
     <HeaderComponent></HeaderComponent>            
       <br /> 
-        <p>Here goes the about services</p>
+        <p>Database tuning</p>
+        <p>Technical writing</p>
+        <p>Process Automation</p>
+        <p>Business Intelligence</p>
+        <p>Cloud Adoption</p>
+        <p>Managed services</p>
       <br />            
       <FooterComponent></FooterComponent>   
     </main>
