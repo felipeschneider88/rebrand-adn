@@ -1,25 +1,12 @@
 import styles from './page.module.css'
-import Link from 'next/link';
+import HeaderComponent from "../components/common/Header/header";
+import FooterComponent from "../components/common/Footer/footer";
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className='header'>
-      <ul>
-      <li>
-        <Link href="/">Home</Link>
-      </li>
-      <li>
-        <Link href="/about">About Us</Link>
-      </li>
-      <li>
-        <Link href="/services">About Us</Link>
-      </li>
-      <li>
-        <Link href="/clients">Blog Post</Link>
-      </li>
-    </ul>
-      </div>
+      <HeaderComponent></HeaderComponent>            
+        <br /> 
       <div className={styles.description}>
         <div>
           <h2>We help you solve your technology challenges.</h2>
@@ -27,57 +14,8 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className={styles.grid}>
-        <a
-          href="https://beta.nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            About <span>-&gt;</span>
-          </h2>
-          <p>About us</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Success Stories<span>-&gt;</span>
-          </h2>
-          <p>Success Stories</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Services <span>-&gt;</span>
-          </h2>
-          <p>Explore the service we ofer</p>
-        </a>
-
-        <a
-          href="https://calendly.com/felipeschneider/"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Contact us <span>-&gt;</span>
-          </h2>
-          <p>
-            Get in touch now with us .
-          </p>
-        </a>
-      </div>
+      <br />            
+      <FooterComponent></FooterComponent>        
     </main>
   )
 }
