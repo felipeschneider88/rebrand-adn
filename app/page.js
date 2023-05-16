@@ -9,7 +9,10 @@ export default function Home() {
           Get started by editing&nbsp;
           <code className={styles.code}>app/page.js</code>
         </p>
-
+        <div>
+          <p>ADN uy is a boutique technology consultancy dedicated to help small and mid-size organizations to make the most out of technology.
+          </p>
+        </div>
       </div>
       <div className={styles.grid}>
         <a
