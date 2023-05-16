@@ -1,3 +1,4 @@
+import styles from '../../../app/page.module.css'
 function FooterComponent() {    
 	return (        
 		<div className={styles.grid}>
