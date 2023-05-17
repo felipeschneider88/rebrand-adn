@@ -9,7 +9,7 @@ export default function Home() {
     <HeaderComponent></HeaderComponent>            
       <br /> 
       <Image
-      src="/../public/office.png"
+      src="/office.png"
       width={500}
       height={500}
       alt="Picture of the office"
