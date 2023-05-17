@@ -16,7 +16,6 @@ function FooterComponent() {
         <a
           href="/clients"
           className={styles.card}
-          target="_blank"
           rel="noopener noreferrer"
         >
           <h2>
@@ -28,7 +27,6 @@ function FooterComponent() {
         <a
           href="/services"
           className={styles.card}
-          target="_blank"
           rel="noopener noreferrer"
         >
           <h2>
