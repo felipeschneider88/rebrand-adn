@@ -1,21 +1,11 @@
 import Link from 'next/link';
 function FooterComponent() {    
 	return (          
-    <div className='header'>
-    <ul>
-    <li>
-      <Link href="/">Home</Link>
-    </li>
-    <li>
-      <Link href="/about">About Us</Link>
-    </li>
-    <li>
-      <Link href="/services">Services</Link>
-    </li>
-    <li>
-      <Link href="/clients">Clients</Link>
-    </li>
-  </ul>
+    <div className="bg-white-300 pt-44 pb-24">
+    <p className="mb-4">
+            <strong className="font-medium">ADN UY</strong> is located in Montevideo, Uruguay.
+          </p>
+    <p className="text-gray-400">©{new Date().getFullYear()} - ADN UY</p>
     </div>   
 	)
 }

@@ -13,7 +13,7 @@ export default function Home() {
                 We help you solve your technology challenges.
               </h1>
               <p className="text-black-500 mt-4 mb-6">
-                <strong>ADN UY</strong>is a boutique technology consultancy dedicated 
+                <strong>ADN UY</strong> is a boutique technology consultancy dedicated 
                 to help small and mid-size organizations to make the most out of technology.
               </p>
               <button  className={"py-3 lg:py-4 px-12 lg:px-16 text-white-500 font-semibold rounded-lg bg-orange-500 hover:shadow-orange-md transition-all outline-none"}>
@@ -33,7 +33,8 @@ export default function Home() {
                   layout="responsive"
                 />
             </div>
-      <br />              
+      <br />         
+      <FooterComponent></FooterComponent>     
     </main>
   )
 }
