@@ -1,5 +1,4 @@
 import styles from './page.module.css'
-import "../styles/tailwind.css";
 import HeaderComponent from "../components/common/Header/header";
 import FooterComponent from "../components/common/Footer/footer";
 import Image from "next/image";
@@ -17,8 +16,11 @@ export default function Home() {
                 <strong>ADN UY</strong>is a boutique technology consultancy dedicated 
                 to help small and mid-size organizations to make the most out of technology.
               </p>
-              <button className={"py-3 lg:py-4 px-12 lg:px-16 text-white-500 font-semibold rounded-lg bg-orange-500 hover:shadow-orange-md transition-all outline-none "}>
-                Get started
+              <button  className={"py-3 lg:py-4 px-12 lg:px-16 text-white-500 font-semibold rounded-lg bg-orange-500 hover:shadow-orange-md transition-all outline-none"}>
+                  <a href="https://calendly.com/felipeschneider/"
+                  target="_blank">
+                    Contact us
+                  </a>
                 </button>
             </div>
             <div className="flex w-full">
