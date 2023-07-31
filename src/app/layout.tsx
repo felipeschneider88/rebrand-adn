@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   description: 'We help your business run smoothly while you can focus in what matter the most',
 }
 
+
 export default function RootLayout({
   children,
 }: {
