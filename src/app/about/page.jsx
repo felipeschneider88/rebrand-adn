@@ -6,7 +6,8 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
     <HeaderComponent></HeaderComponent>            
       <br /> 
-        <p>Here goes the about secction</p>
+        <h1>Felipe Schneider</h1>
+      <h2>CEO  </h2>
       <br />            
       <FooterComponent></FooterComponent>   
     </main>
