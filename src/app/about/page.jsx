@@ -8,6 +8,7 @@ export default function Home() {
       <br /> 
         <h1>Felipe Schneider</h1>
       <h2>CEO  </h2>
+      <h2>felipe@adn.edu.uy  </h2>
       <br />            
       <FooterComponent></FooterComponent>   
     </main>
